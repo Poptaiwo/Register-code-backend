@@ -18,6 +18,6 @@ app.listen(PORT,()=>{
     mongoose.connect(URI)
     .then(()=>{
         console.log("Database is connected")
+        console.log("Server is running on port:" + PORT)
     })
-    console.log("Server is running on port:" + PORT)
     })

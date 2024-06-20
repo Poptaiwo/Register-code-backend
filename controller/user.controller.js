@@ -31,7 +31,7 @@ const postRegister = (req, res) =>{
     
         let mailOptions = {
             from: process.env.EMAIL, 
-            to: "poptaiwo001@gmail.com", 
+            to: email, 
             subject: "Hello Pop", 
             text: "Hello world?", 
             html: `<!DOCTYPE html>
